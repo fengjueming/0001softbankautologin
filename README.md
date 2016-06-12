@@ -7,4 +7,7 @@ You need to replace your Softbank WiFi SPOT account(iPad).
 如果使用脚本代码执行，请自行添加Softbank WiFi SPOT的iPad账号，获取渠道请自行解决。
 
 Download 下载：
-https://www.dropbox.com/s/xmtkgjdtucd4f65/softbank.app.zip?dl=0
+http://ming.moe/softbank.spot.login.zip
+
+更新：
+2016年06月13日 之前用的账号过期了，更换了一个可用的。
