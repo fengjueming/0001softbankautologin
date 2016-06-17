@@ -6,5 +6,6 @@
 
 <p>Download： http://ming.moe/softbank.spot.login.zip</p>
 
-<p>更新：
-2016年06月13日 更换了一个可用账号</p>
+<p>更新：</p>
+2016年06月17日 重写程序结构，增加新干线mobilepoint1支持</p>
+<p>2016年06月13日 更换了一个可用账号</p>
