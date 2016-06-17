@@ -1,11 +1,11 @@
 on sblogin(SSID, loginurl)
 	if SSID is "0001softbank" then
 		set loginurl to do shell script "echo " & quoted form of loginurl & " | sed s/wrs/wrslogin/"
-		do shell script "curl -s -o /dev/null -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B137 Safari/601.1' --data 'SWSUserName=sbm00683a2%40sbwifi.jp&SWSPassword=JnCZa&doLogin.x=15&doLogin.y=12' " & quoted form of loginurl
+		do shell script "curl -s -o /dev/null -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B137 Safari/601.1' --data 'SWSUserName=&SWSPassword=&doLogin.x=15&doLogin.y=12' " & quoted form of loginurl
 	end if
 	if SSID is "mobilepoint1" then
 		set sblogin to do shell script "echo " & quoted form of sblogin & " | sed s/wrs/wrslogin/"
-		do shell script "curl -s -o /dev/null -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B137 Safari/601.1' --data 'UserName=sbm00683a2&Suffix=sbwifi.jp&Password=JnCZa&button=Login' " & quoted form of sblogin
+		do shell script "curl -s -o /dev/null -H 'User-Agent: Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B137 Safari/601.1' --data 'UserName=&Suffix=sbwifi.jp&Password=&button=Login' " & quoted form of sblogin
 	end if
 end sblogin
 
